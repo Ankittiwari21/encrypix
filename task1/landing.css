@@ -1,0 +1,180 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+button{
+    border: 0px;
+    background-color: #292929;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+  
+.logo-div{
+    display: flex;
+    align-items: center;
+}
+.logo-text{
+    margin-left: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+  
+nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #333;
+}
+  
+.poster{
+    display: flex;
+    height: 400px;
+    background-color: #ededed;
+}
+
+.poster-text-div{
+    margin : 100px;
+}
+
+.poster-heading{
+    font-size: 44.5px;
+    font-weight: 600;
+    margin : 0px;
+}
+
+.poster-image{
+    margin: 66px;
+    margin-left: 200px;
+    height : 283px;
+    width : 283px;
+}
+
+.clients{
+    margin : 50px;
+    text-align:center;
+}
+
+.clients-images-div{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+
+}
+.client-heading{
+    font-size: 25px;
+}
+
+.client-image{
+    height: 40px;
+    width: 40px;
+}
+.who{
+    background-color: #f1f1f1;
+    padding: 50px;
+}
+
+.who-heading{
+    font-size: 25px;
+    width: 380px;
+    margin: 0px auto;
+    text-align: center;
+}
+.who-text{
+    text-align: center;
+}
+
+.three-audience-div{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.audience-div{
+    text-align: center;
+    width: 208px;
+}
+
+.unseen{
+    display: flex;
+    margin : 0px 100px;
+}
+.unseen-image{
+    height: 400px;
+    width: 400px;
+}
+.unseen-text{
+    margin : 100px 50px ;
+}
+
+
+.demo{
+    padding: 25px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.demo-heading{
+    font-size: 44px;
+    width: 500px;
+    margin: 25px auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #303439;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    color: #fff;
+}
+.logo-footer{
+    text-align: left;
+}
+.copyright-text{
+    margin-top : 50px;
+}
+.reserved-text{
+    margin-bottom : 50px;
+}
+.other-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.other-footer-item{
+  margin: 0px 40px;
+  text-align: left;
+}
+
+.other-footer-item-heading{
+    margin-bottom : 20px;
+}
+
+input  {
+    height: 25px;
+    width: 200px;
+    border-radius : 5px;
+    border : none;
+    padding: 5px;
+    margin-right : 5px;
+}
+
+.social-images{
+    height: 22px;
+    width: 122px;
+}
